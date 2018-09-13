@@ -104,6 +104,7 @@ class BotDelive
         $params = (!is_array($params)) ? array() : $params;
         $params['appId'] = $this->appId;
         $params['secretKey'] = $this->secretKey;
+        $params['platform'] = 'php';
         $query = http_build_query($params,'', '&');
         $url = $requestUrl. "?" . $query;
         if (extension_loaded('curl'))

@@ -5,7 +5,7 @@ About
 
 **BotDelive** is a Push Notification and 2-factor authentication API service that works over the chat bots (Telegram and Messenger).
 
-        composer require botdelive/bd
+        composer require botdelive/botdelive
 
 Requirements
 -------------
